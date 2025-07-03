@@ -25,8 +25,8 @@ build:
 loans:
   message: "Welcome to EazyBank loans related local APIs"
   contactDetails:
-    name: "Jake bae - Developer"
-    email: "jake@eazybank.com"
+    name: "Loan local bae - Developer"
+    email: "loan@eazybank.com"
   onCallSupports:
     - (555) 555-1234
     - (555) 555-1345
