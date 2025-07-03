@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related local APIs"
+  contactDetails:
+    name: "david sang - Developer"
+    email: "david@eazybank.com"
+  onCallSupports:
+    - (555) 555-1234
+    - (555) 555-1345
