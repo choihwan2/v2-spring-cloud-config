@@ -2,6 +2,7 @@ package com.eazybytes.loans.controller;
 
 import com.eazybytes.loans.constants.LoansConstants;
 import com.eazybytes.loans.dto.ErrorResponseDto;
+import com.eazybytes.loans.dto.LoansContactInfoDto;
 import com.eazybytes.loans.dto.LoansDto;
 import com.eazybytes.loans.dto.ResponseDto;
 import com.eazybytes.loans.service.ILoansService;
@@ -45,6 +46,9 @@ public class LoansController {
 
     @Value("${build.version}")
     private String buildVersion;
+
+    @Autowired
+    private LoansContactInfoDto loansContactInfoDto;
 
     @Operation(
             summary = "Create Loan REST API",
@@ -197,4 +201,26 @@ public class LoansController {
         return ResponseEntity.status(HttpStatus.OK).body(buildVersion);
     }
 
+    @Operation(
+        summary = "Get Contact Info",
+        description = "Get Contact information that is deployed into accounts microservice"
+    )
+    @ApiResponses({
+        @ApiResponse(
+            responseCode = "200",
+            description = "HTTP Status OK"
+        ),
+        @ApiResponse(
+            responseCode = "500",
+            description = "HTTP Status Internal Server Error",
+            content = @Content(
+                schema = @Schema(implementation = ErrorResponseDto.class)
+            )
+        )
+    }
+    )
+    @GetMapping("/contact-info")
+    public ResponseEntity<LoansContactInfoDto> getContactInfo() {
+        return ResponseEntity.status(HttpStatus.OK).body(loansContactInfoDto);
+    }
 }

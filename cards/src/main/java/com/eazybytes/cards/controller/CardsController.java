@@ -200,7 +200,7 @@ public class CardsController {
 
     @Operation(
         summary = "Get Contact Info",
-        description = "Get Contact information that is deployed into accounts microservice"
+        description = "Get Contact information that is deployed into cards microservice"
     )
     @ApiResponses({
         @ApiResponse(
