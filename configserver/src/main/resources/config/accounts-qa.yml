@@ -1,0 +1,11 @@
+build:
+  version: "2.0-qa"
+
+accounts:
+  message: "Welcome to EazyBank accounts related QA APIs - Unique"
+  contactDetails:
+    name: "John Doe - QA Accounts"
+    email: "john.qa.accounts@eazybank.com"
+  onCallSupport:
+    - (555) 111-2221
+    - (555) 111-2222

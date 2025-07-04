@@ -1,0 +1,11 @@
+build:
+  version: "1.0-prod"
+
+loans:
+  message: "Welcome to EazyBank loans related PROD APIs - Unique"
+  contactDetails:
+    name: "Peter Jones - PROD Loans"
+    email: "peter.prod.loans@eazybank.com"
+  onCallSupport:
+    - (555) 333-5553
+    - (555) 333-5554
