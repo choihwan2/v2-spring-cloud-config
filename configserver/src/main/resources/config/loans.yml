@@ -6,6 +6,6 @@ loans:
   contactDetails:
     name: "Peter Jones - Loans"
     email: "peter.loans@eazybank.com"
-  onCallSupport:
+  onCallSupports:
     - (555) 333-3333
     - (555) 333-3334

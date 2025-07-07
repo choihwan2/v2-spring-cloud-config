@@ -6,6 +6,6 @@ accounts:
   contactDetails:
     name: "John Doe - PROD Accounts"
     email: "john.prod.accounts@eazybank.com"
-  onCallSupport:
+  onCallSupports:
     - (555) 111-3331
     - (555) 111-3332

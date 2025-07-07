@@ -6,6 +6,6 @@ cards:
   contactDetails:
     name: "Jane Doe - QA Cards"
     email: "jane.qa.cards@eazybank.com"
-  onCallSupport:
+  onCallSupports:
     - (555) 222-3332
     - (555) 222-3333

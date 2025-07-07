@@ -6,6 +6,6 @@ loans:
   contactDetails:
     name: "Peter Jones - PROD Loans"
     email: "peter.prod.loans@eazybank.com"
-  onCallSupport:
+  onCallSupports:
     - (555) 333-5553
     - (555) 333-5554

@@ -6,6 +6,6 @@ accounts:
   contactDetails:
     name: "John Doe - QA Accounts"
     email: "john.qa.accounts@eazybank.com"
-  onCallSupport:
+  onCallSupports:
     - (555) 111-2221
     - (555) 111-2222

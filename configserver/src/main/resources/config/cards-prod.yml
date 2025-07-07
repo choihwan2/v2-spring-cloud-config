@@ -6,6 +6,6 @@ cards:
   contactDetails:
     name: "Jane Doe - PROD Cards"
     email: "jane.prod.cards@eazybank.com"
-  onCallSupport:
+  onCallSupports:
     - (555) 222-4442
     - (555) 222-4443
