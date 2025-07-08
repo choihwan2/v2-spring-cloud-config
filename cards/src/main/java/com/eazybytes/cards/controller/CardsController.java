@@ -36,10 +36,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping(path = "/api", produces = {MediaType.APPLICATION_JSON_VALUE})
 @Validated
-@NoArgsConstructor
 public class CardsController {
 
-    private ICardsService iCardsService;
+    private final ICardsService iCardsService;
 
     public CardsController(ICardsService iCardsService) {
         this.iCardsService = iCardsService;
