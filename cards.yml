@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank cards related local APIs - Unique"
+  contactDetails:
+    name: "Jane Doe - Cards"
+    email: "jane.cards@eazybank.com"
+  onCallSupport:
+    - (555) 222-2222
+    - (555) 222-2223

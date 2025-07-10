@@ -1,0 +1,11 @@
+build:
+  version: "1.0-prod"
+
+cards:
+  message: "Welcome to EazyBank cards related PROD APIs - Unique"
+  contactDetails:
+    name: "Jane Doe - PROD Cards"
+    email: "jane.prod.cards@eazybank.com"
+  onCallSupport:
+    - (555) 222-4442
+    - (555) 222-4443

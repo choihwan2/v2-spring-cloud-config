@@ -1,0 +1,11 @@
+build:
+  version: "2.0-qa"
+
+cards:
+  message: "Welcome to EazyBank cards related QA APIs - Unique"
+  contactDetails:
+    name: "Jane Doe - QA Cards"
+    email: "jane.qa.cards@eazybank.com"
+  onCallSupport:
+    - (555) 222-3332
+    - (555) 222-3333
