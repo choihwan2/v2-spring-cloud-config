@@ -6,6 +6,6 @@ loans:
   contactDetails:
     name: "Peter Jones - QA Loans"
     email: "peter.qa.loans@eazybank.com"
-  onCallSupports:
+  onCallSupport:
     - (555) 333-4443
     - (555) 333-4444

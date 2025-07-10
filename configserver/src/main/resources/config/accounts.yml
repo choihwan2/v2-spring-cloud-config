@@ -6,6 +6,6 @@ accounts:
   contactDetails:
     name: "John Doe - Accounts"
     email: "john.accounts@eazybank.com"
-  onCallSupports:
+  onCallSupport:
     - (555) 111-1111
     - (555) 111-1112
