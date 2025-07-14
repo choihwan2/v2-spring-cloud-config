@@ -41,7 +41,7 @@ services:
       SPRING_PROFILES_ACTIVE: "default"
       SPRING_CONFIG_IMPORT: "configserver:http://configserver:8071/"
   cards:
-    image: choihwan2/cards:s6
+    image: choihwan2/cards:s4
     container_name: cards-ms
     ports:
       - "9000:9000"
