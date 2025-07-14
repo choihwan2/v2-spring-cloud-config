@@ -13,11 +13,14 @@ spring:
           timeout: 5
           clone-on-start: true
           force-pull: true
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
 #        native:
 #            search-locations: "classpath:/config"
 #              search-locations: "file:///Users//pavlo//kakao//microservices//section6//v2-spring-cloud-config//configserver//src//main//resources//config"
-
-
 encrypt:
   key: "pavlo-secret-key"
 
