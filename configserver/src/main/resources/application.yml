@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+#    active: native
+    active: git
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/choihwan2/v2-spring-cloud-config.git"
+          default-label: master
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+#        native:
+#            search-locations: "classpath:/config"
+#              search-locations: "file:///Users//pavlo//kakao//microservices//section6//v2-spring-cloud-config//configserver//src//main//resources//config"
+
+
+encrypt:
+  key: "pavlo-secret-key"
+
+server:
+  port: 8071
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
