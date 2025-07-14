@@ -2,7 +2,7 @@ build:
   version: "1.0-prod"
 
 cards:
-  message: "Welcome to EazyBank cards related PROD APIs - Unique"
+  message: "Welcome to EazyBank cards related webhook APIs - Unique"
   contactDetails:
     name: "David Doe - PROD Cards"
     email: "jane.prod.cards@eazybank.com"
