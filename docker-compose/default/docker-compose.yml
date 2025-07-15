@@ -42,7 +42,7 @@ services:
       SPRING_APPLICATION_NAME: "accounts"
     extends:
       file: common-config.yml
-      service: microservice-config-server-config
+      service: microservice-configserver-config
 
   loans:
     image: choihwan2/loans:s6
@@ -55,10 +55,10 @@ services:
       SPRING_APPLICATION_NAME: "loans"
     extends:
       file: common-config.yml
-      service: microservice-config-server-config
+      service: microservice-configserver-config
 
   cards:
-    image: choihwan2/cards:s4
+    image: choihwan2/cards:s6
     container_name: cards-ms
     ports:
       - "9000:9000"
@@ -66,7 +66,7 @@ services:
       SPRING_APPLICATION_NAME: "cards"
     extends:
       file: common-config.yml
-      service: microservice-config-server-config
+      service: microservice-configserver-config
 networks:
   choihwan2:
     driver: bridge
