@@ -4,7 +4,7 @@ build:
 accounts:
   message: "Welcome to EazyBank accounts related local APIs - Unique"
   contactDetails:
-    name: "Pavlo Doe - Accounts"
+    name: "David Doe - Accounts"
     email: "john.accounts@eazybank.com"
   onCallSupport:
     - (555) 111-1111
