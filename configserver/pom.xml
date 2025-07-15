@@ -72,6 +72,24 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.5</version>
+				<configuration>
+					<to>
+						<image>choihwan2/${project.artifactId}:s6</image>
+					</to>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.13.0</version> <!-- Java 21 정식 지원 시작 버전 -->
+				<configuration>
+					<release>21</release> <!-- 반드시 명시 -->
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
